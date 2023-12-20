@@ -1,10 +1,9 @@
 # Roshini Pulishetty
 
-[About](https://roshinishetty.github.io/About/) [Projects](https://roshinishetty.github.io/) 
+[About](/#About) [Projects](https://roshinishetty.github.io/#About) 
 
 ## About
 
-
-![Profile Picture](/profilepicture.jpg)
+<img style="float: right;" src="/profilepicture.jpg">
 
 I am a Master's student at the University of Massachusetts Amherst.
