@@ -1,9 +1,15 @@
-# Roshini Pulishetty
+<!DOCTYPE html>
+<html>
+<body>
 
-[About](/#About) [Projects](https://roshinishetty.github.io/#About) 
+<h1>Roshini Pulishetty</h1>
 
-## About
+<a href="">About</a>
+<a href="">Projects</a>
 
-<img style="float: right;" src="/profilepicture.jpg">
+<h2>About</h2>
 
-I am a Master's student at the University of Massachusetts Amherst.
+<img src="/profilepicture.jpg" style="float: left;"> I am a Master’s student at the University of Massachusetts Amherst.
+
+</body>
+</html>
