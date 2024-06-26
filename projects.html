@@ -41,7 +41,7 @@
                 <div class="left-project">
                     <div class="content">
                         <h3>Transformer-based 3D Single Object Tracking (Mar-May 2024)</h3>
-                        <p>In this study, we evaluated transformers as a feature fusion module and reimplemented feature-extractor in the classic Siamese-based architecture. This resulted in an improvement in mean success/precision score to (66.0/45.5) in the overall tracking of various category objects compared to (60.0/42.4) using P2B, while it gave a substantial improvement in tracking non-rigid objects like pedestrains. However, P2B outperformed this model in tracking rigid objects.</p>
+                        <p>In this study, we evaluated transformers as a feature fusion module and reimplemented feature-extractor in the classic Siamese-based architecture. This resulted in an improvement in mean success/precision score to (66.0/45.5) in the overall tracking of various category objects compared to (60.0/42.4) using P2B (point-to-box), while it gave a substantial improvement in tracking non-rigid objects like pedestrains. However, P2B outperformed this model in tracking rigid objects.</p>
                         <p><a href="https://github.com/roshinishetty/3D-SOT">CODE</a> &emsp; <a href="https://github.com/roshinishetty/3D-SOT/blob/main/Report.pdf">REPORT</a></p>
                     </div>
                     <img src="./images/pc_vis_2.gif"/>
@@ -54,7 +54,7 @@
                 <div class="right-project">
                     <div class="content">
                         <h3>Breaking Bias: Quantify and Reduce LLMs Bias Towards Specific Options (Mar-May 2024)</h3>
-                        <p>This project examines the behavior of Large Language Models (LLMs) when answering multiple-choice questions. We primarily studied two types of inherent bias - LLMs tending to choose an answer driven by the option token it is associated with, termed "token bias" and their tendency to choose an answer based on the option's position, called "position bias" on  8 models across 3 LLM families - Gemma, Mistral and Llama. By inferring responses on permuted questions and employing a statistical evaluation framework to gauge incorrect likelihoods, recall imbalance, and proportion of plurality agreement, we measured the bias with 99.5% confidence. We concluded that token and position biases exist independently, and their complex interplay leads the LLM to choose an incorrect answer. We demonstrated that bias varies across different LLMs even of the same family while it is domain-independent. Through experiments, we could show that LoRA fine-tuning with permuted training data mitigates biases on out-of-domain data and is sample-efficient.</p>
+                        <p>This project examines the behavior of Large Language Models (LLMs) when answering multiple-choice questions. We primarily studied two types of inherent bias - LLMs tending to choose an answer driven by the option token it is associated with, termed "token bias" and their tendency to choose an answer based on the option's position, called "position bias" on  8 models across 3 families - Gemma, Mistral and Llama. By inferring responses on permuted questions and employing a statistical evaluation framework to gauge incorrect likelihoods, recall imbalance, and proportion of plurality agreement, we measured the bias with 99.5% confidence. We concluded that token and position biases exist independently, and their complex interplay leads the LLM to choose an incorrect answer. We demonstrated that bias varies across different models though they belong to the same family while it is domain-independent. Through experiments, we could show that LoRA fine-tuning with permuted training data mitigates biases on out-of-domain data and is sample-efficient.</p>
                         <p><a href="https://github.com/roshinishetty/LLM_MCQ_Token_Binding">CODE</a> &emsp; <a href="https://github.com/roshinishetty/LLM_MCQ_Token_Binding/blob/main/Report.pdf">REPORT</a></p>
                     </div>
                     <img src="./images/llm_option_bias.jpg">
@@ -146,7 +146,7 @@
                 <div class="right-project">
                     <div class="content">
                         <h3>TCL Type Checker (Aug - Dec 2018)</h3>
-                        <p>This project is centered around providing a robust type-checker for TCL. This involved designing the principles for structure, name or internal equivalence among the variable types, implementing them and validating against complex test cases.</p>
+                        <p>This project is centered around providing a robust type-checker for TCL language. This involved designing the principles for structure, name or internal equivalence among the variable types, implementing them and validating against complex test cases.</p>
                         <p><a href="https://github.com/roshinishetty/TCL--Type-Check/tree/master">CODE</a> &emsp; <a href="https://github.com/roshinishetty/TCL--Type-Check/tree/master/docs">DOCUMENTS</a></p>
                     </div>
                     <!-- <img src=""> -->
